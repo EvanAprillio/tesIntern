@@ -1,0 +1,78 @@
+.header {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.cart-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.main {
+  padding: 20px;
+}
+
+.search-section h2 {
+  margin-bottom: 10px;
+}
+
+.search-form select,
+.search-form button {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100px;
+}
+
+.product .old-price {
+  text-decoration: line-through;
+  color: red;
+}
+
+.product .new-price {
+  font-weight: bold;
+  color: green;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+.find-cartridge {
+  background-image: url('DigitalPrinting_2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white; /* Atur warna teks agar kontras dengan gambar latar belakang */
+  padding: 20px; /* Sesuaikan padding sesuai kebutuhan */
+  text-align: center; /* Sesuaikan perataan teks sesuai kebutuhan */
+}
